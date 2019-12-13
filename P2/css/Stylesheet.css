@@ -1,0 +1,205 @@
+/* One css would be the best */
+
+
+body {
+	background-color: black;
+	color: white;
+	
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 10% 40% 40% 10%;
+	grid-template-rows: repeat(40,60px);
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.text{
+	grid-column: 2/4;
+}
+.header{
+	grid-column: 2/4;
+	font-family: 'Orbitron', sans-serif, bold;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 3px;
+	font-size: 20pt;
+	grid-row: 1;
+
+}
+
+h2 {
+	font-family: 'Orbitron', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: gold;
+}
+
+.BioPic0 {
+	grid-column: 3/4;
+	grid-row: 4;
+	padding-left: 5%;
+}
+
+.bio1{
+	grid-column: 2/3;
+	grid-row: 3;
+}
+
+.BioPic1 {
+	grid-column: 3/4;
+	grid-row: 12;
+	padding-left: 5%;
+}
+
+.bio2{
+	grid-column: 2/3;
+	grid-row: 11;
+}
+
+.bio3{
+	grid-column: 2/3;
+	grid-row: 25;
+}
+
+.BioPic2{
+	grid-column: 3/4;
+	grid-row: 26;
+	padding-left: 5%;
+}
+
+.album1{
+	grid-column: 2/3;
+	grid-row: 3;
+}
+
+.albumPic1 {
+	grid-column: 3/4;
+	grid-row: 4;
+	padding-left: 5%;
+}
+
+.album2 {
+	grid-column: 2/3;
+	grid-row: 10;
+}
+
+.albumPic2 {
+	grid-column: 3/4;
+	grid-row: 11;
+	padding-left: 5%;
+}
+
+.album3 {
+	grid-column: 2/3;
+	grid-row: 16;
+}
+
+.albumPic3 {
+	grid-column: 3/4;
+	grid-row: 18;
+	padding-left: 5%;
+}
+
+.album4 {
+	grid-column: 2/3;
+	grid-row: 24;
+}
+
+.albumPic4 {
+	grid-column: 3/4;
+	grid-row: 25;
+	padding-left: 5%;
+}
+
+.album5 {
+	grid-column: 2/3;
+	grid-row: 32;
+}
+
+.albumPic5 {
+	grid-column: 3/4;
+	grid-row: 33;
+	padding-left: 5%;
+}
+
+.titleimage {
+	grid-column: 2/4;
+	grid-row: 3;
+}
+.image{
+	grid-column: 2/4;
+	grid-row: 3;
+}
+
+#navbar {
+	grid-row: 5;
+	color: yellow;
+	text-decoration: none;
+	position: fixed;
+	padding-top: 15%;
+}
+
+#navbar a {
+	color: yellow;
+	text-decoration: none;
+}
+
+#navbar a:hover {
+	color: gold;
+}
+
+.galleryim1 {
+	grid-row: 5;
+	grid-column: 2/3;
+	padding-left: 12%;
+}
+
+.galleryim2{
+	grid-row: 5;
+	grid-column: 3/4;
+}
+
+.galleryim3{
+	grid-row: 10;
+	grid-column: 2/3;
+	padding-left: 12%;
+}
+
+.galleryim4 {
+	grid-row: 11;
+	grid-column: 3/4;
+}
+
+.galleryim5 {
+	grid-column: 2/3;
+	grid-row: 15;
+	padding-left: 12%;
+}
+
+.galleryim6 {
+	grid-column: 3/4;
+	grid-row: 18;
+}
+
+.galleryim7 {
+	grid-column: 2/3;
+	grid-row: 21;
+	padding-left: 5%;
+	padding-top: 4%;
+}
+
+.bioParagraph {
+	grid-column: 3/5;
+	grid-row: 5;
+}
+
+footer {
+	grid-column: 2/3;
+	grid-row: 40;
+	font-size: 9pt;
+}
+
+
